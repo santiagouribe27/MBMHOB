@@ -1,0 +1,7 @@
+#Fri Nov 10 00:11:58 COT 2017
+base.0=C\:\\Users\\JuanGuillermoGallego.AzureAD\\Desktop\\MBMHOB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_13ee4121c5e0f1588af8b48e23f5885ae330d284
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\JuanGuillermoGallego.AzureAD\\Desktop\\MBMHOB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b22617e6efe3050338692fea70a3f397bf165d8f\\classes.dex
+base.1=C\:\\Users\\JuanGuillermoGallego.AzureAD\\Desktop\\MBMHOB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b22617e6efe3050338692fea70a3f397bf165d8f
+file.0=C\:\\Users\\JuanGuillermoGallego.AzureAD\\Desktop\\MBMHOB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_13ee4121c5e0f1588af8b48e23f5885ae330d284\\classes.dex

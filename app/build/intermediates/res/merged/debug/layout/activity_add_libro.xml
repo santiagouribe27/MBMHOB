@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sistemasempresariales.afinal.mbmhob.AddLibroActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir un nuevo libro"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="60sp"
+        android:textSize="15sp"
+        android:text="Titulo" />
+
+    <EditText
+        android:id="@+id/editTextADDTitulo"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="13sp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="60sp"
+        android:text="Autor" />
+
+    <EditText
+        android:id="@+id/editTextADDAutor"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:textSize="13sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="60sp"
+        android:text="Reseña" />
+
+    <EditText
+        android:id="@+id/editTextADDReseña"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnADDVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8sp"
+            android:background="#E9E4FF"
+            android:text="Volver" />
+
+
+        <Button
+            android:id="@+id/btnADDAñadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#9DE489"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="8sp"
+            android:text="añadir" />
+    </LinearLayout>
+
+</LinearLayout>

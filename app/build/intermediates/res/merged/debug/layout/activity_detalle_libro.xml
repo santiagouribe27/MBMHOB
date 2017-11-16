@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sistemasempresariales.afinal.mbmhob.DetalleLibroActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Detalle libro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"
+        android:text="Titulo" />
+
+    <TextView
+        android:id="@+id/textViewDetalleTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:textSize="13sp"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Autor"
+        android:layout_marginLeft="5sp"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:id="@+id/textViewDetalleAutor"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:textSize="13sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:text="Reseña" />
+
+    <TextView
+        android:id="@+id/textViewDetalleReseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:textSize="13sp"
+        android:layout_marginTop="10sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDetalleVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E9E4FF"
+            android:layout_marginLeft="5sp"
+            android:text="volver" />
+
+        <Button
+            android:id="@+id/btnDetalleEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5sp"
+            android:background="#FCB315"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnDetalleEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:background="#F04D33"
+            android:text="Eliminar" />
+    </LinearLayout>
+
+</LinearLayout>
